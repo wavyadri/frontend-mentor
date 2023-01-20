@@ -6,8 +6,43 @@
 
 body {
   background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  width: 100vw;
 }
 
 p {
-  font-size: 14px;
+  font-size: 44px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  display: flex;
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+#img {
+  flex: 1;
+}
+
+#img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#copy {
+  flex: 1;
 }
