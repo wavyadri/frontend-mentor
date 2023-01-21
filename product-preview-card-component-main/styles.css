@@ -94,11 +94,15 @@ h6 {
 
 body {
   background-color: var(--colour-secondary);
+  font-size: var(--fontS-reg);
+}
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: var(--fontS-reg);
+  height: 100%;
 }
 
 .card {
@@ -156,6 +160,7 @@ img {
   display: flex;
   gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .price__promotion {
@@ -198,4 +203,14 @@ img {
 .btn__text {
   color: var(--colour-light);
   font-weight: var(--fontW-bold);
+}
+
+/* Responsive CSS */
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    width: 90%;
+    min-height: 700px;
+  }
 }
