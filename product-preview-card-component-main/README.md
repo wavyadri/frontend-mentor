@@ -23,7 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+
+
+https://user-images.githubusercontent.com/63519712/213940446-cde08993-abf6-45ff-9970-3ecb5e34269d.mov
+
+
 
 ## My process
 
