@@ -1,7 +1,6 @@
 import React from 'react';
+import { Background } from './components/Background';
 
-function App() {
-  return <div>hello world</div>;
-}
-
-export default App;
+export const App = () => {
+  return <Background>hi</Background>;
+};
